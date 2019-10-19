@@ -7,7 +7,7 @@ pairs = [
     ],
     [
         r"what is your name ?",
-        ["My name is Chatty and I'm a chatbot ?",]
+        ["My name is jas and I'm a chatbot ?",]
     ],
     [
         r"how are you ?",
@@ -77,7 +77,7 @@ pairs = [
 ],
 ]
 def chatty():
-    print("Hi, I'm Chatty and I chat alot ;)\nPlease type lowercase English language to start a conversation. Type quit to leave ") #default message at the start
+    print("Hi, I'm jas and I chat alot ;)\nPlease type lowercase English language to start a conversation. Type quit to leave ") #default message at the start
     chat = Chat(pairs, reflections)
     chat.converse()
 if __name__ == "__main__":
