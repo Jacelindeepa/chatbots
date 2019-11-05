@@ -5,6 +5,10 @@ pairs = [
         r"my name is (.*)",
         ["Hello %1, How are you today ?",]
     ],
+      [
+        r"i m fine ? what about you",
+        [" i m also fine?",]
+    ],
     [
         r"what is your name ?",
         ["My name is jas and I'm a chatbot ?",]
